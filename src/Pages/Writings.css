@@ -1,0 +1,72 @@
+
+
+/*@import url('https://latex.now.sh/style.css');*/
+
+/*
+.Writings
+{
+    font-family: "lmroman10-regular";
+    text-align: justify;
+    margin: 10px auto;
+
+    width: 30%;
+
+}*/
+.Writings
+{
+    font-family: "lmroman10-regular";
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+.Writings-text {
+    width:595px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.LinkAndSummary {
+    width:560px;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    background-color : rgb(255, 255, 255);
+    padding : 0;
+    margin : 0;
+    line-height : 20px;
+}
+
+#Alpha {
+    font-size: 32px;
+    width: 600px;
+    text-align: center;
+}
+
+#p1 {
+    padding : 0;
+    margin : 0;
+    line-height : 20px;
+}
+#myh1 {
+    font-size: 24px;
+    width: 600px;
+    text-align: left;
+    line-height : 23px;
+
+}
+#p2 {
+    padding : 0;
+    margin : 0;
+    line-height : 20px;
+    font-size: 16px;
+}
+
+/*LM-regular*/
+/*lmroman10-regular*/

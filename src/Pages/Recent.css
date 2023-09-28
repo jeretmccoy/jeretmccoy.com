@@ -1,0 +1,30 @@
+.Recent
+{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.Recent-text
+{
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    text-align: justify;
+    width:500px;
+}
+
+.Recent-text h1
+{
+    text-align: center;
+}
+
+.Recent-text h2
+{
+    text-align: center;
+}
+
+#vtz
+{
+    text-align: center;
+}

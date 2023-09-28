@@ -1,0 +1,15 @@
+button {
+    background-color: #4CAF50; /* For a green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Some padding */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Add some hover effect */
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
