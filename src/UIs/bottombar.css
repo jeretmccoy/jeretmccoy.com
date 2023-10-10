@@ -1,27 +1,35 @@
 .BottomBar {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: flex-end;
-  }
-  
-  .bottom-bar {
-    width: 100%;
-    background-color: transparent;
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 20px 10px 10px; /* top, right, bottom, left padding */
-  }
-  
-  .login-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin-right: 30px; /* Adds a margin to the right of the button */
-  }
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-end;
+}
 
-  .plain-href {
-    text-decoration: none;
-    color: inherit;
-  }
+.bottom-bar {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px 10px 10px; /* top, right, bottom, left padding */
+}
+
+.login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 30px; /* Adds a margin to the right of the button */
+}
+
+.plain-href {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bottomp
+{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}

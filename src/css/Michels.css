@@ -1,0 +1,58 @@
+.Michels
+{
+    font-family: "lmroman10-regular";
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+.Michels-text {
+    width:595px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+#essayTitle {
+    font-size: 32px;
+    width: 600px;
+    text-align: center;
+}
+
+#quote1 {
+    font-size: 14px;
+    
+}
+
+.author {
+    width:700px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.title-input {
+    width: 570px;
+    height: 45px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .description-input {
+    width: 570px;
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+  }

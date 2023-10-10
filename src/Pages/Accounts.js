@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./Accounts.css"
+import "../css/Accounts.css"
 import { registerUser, signInUser } from '../api';
 import ReCAPTCHA from "react-google-recaptcha";
 
@@ -51,6 +51,7 @@ export default function Accounts ()
           localStorage.clear();
           localStorage.setItem('authToken', response.data.token);
           localStorage.setItem('name', username);
+          localStorage.setItem('admin', response.data.admin);
           window.location.reload();
           setSuccess(`You logged in as ${username}!`);
           console.log(response);
